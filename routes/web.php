@@ -44,3 +44,6 @@ Route::post('/categorie/save',[CategorieController::class,'save'])->name('catego
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+use App\Http\Controllers\InvoiceController;
+Route::get('/invoices',[InvoiceController::class, 'show']);

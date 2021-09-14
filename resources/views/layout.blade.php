@@ -84,7 +84,7 @@
          
 
             <li class="nav-item">
-              <a class="nav-link" href="/categories">
+              <a class="nav-link" href="/categorie">
                 <span data-feather="shopping-cart"></span>
                 Categories
               </a>
